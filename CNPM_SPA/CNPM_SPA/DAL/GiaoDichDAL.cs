@@ -1,16 +1,15 @@
-﻿using System;
+﻿using CNPM_SPA.DAL;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 
 public class GiaoDichDAL
 {
-    string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
-
     public DataTable GetAll()
     {
         DataTable dt = new DataTable();
 
-        using (SqlConnection conn = new SqlConnection(connStr))
+        using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
         using (SqlCommand cmd = new SqlCommand("sp_GiaoDich_GetAll", conn))
         {
             cmd.CommandType = CommandType.StoredProcedure;
@@ -25,7 +24,7 @@ public class GiaoDichDAL
     {
         DataTable dt = new DataTable();
 
-        using (SqlConnection conn = new SqlConnection(connStr))
+        using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
         using (SqlCommand cmd = new SqlCommand("sp_GiaoDich_ByType", conn))
         {
             cmd.CommandType = CommandType.StoredProcedure;
@@ -42,7 +41,7 @@ public class GiaoDichDAL
     {
         DataTable dt = new DataTable();
 
-        using (SqlConnection conn = new SqlConnection(connStr))
+        using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
         using (SqlCommand cmd = new SqlCommand("sp_GiaoDich_ByDate", conn))
         {
             cmd.CommandType = CommandType.StoredProcedure;

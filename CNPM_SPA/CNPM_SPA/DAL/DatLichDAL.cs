@@ -10,12 +10,10 @@ namespace CNPM_SPA.DAL
 {
     public class DatLichDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
-
         // ================= THÊM KHÁCH =================
         public void ThemKhach(string ten, string sdt, int diem)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_ThemKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -32,7 +30,7 @@ namespace CNPM_SPA.DAL
         // ================= THÊM LỊCH =================
         public void ThemLich(int makh, int manv, int maphong, int madv, DateTime tg)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_ThemLichDat_nv", conn);
                 cmd.CommandType = CommandType.StoredProcedure;

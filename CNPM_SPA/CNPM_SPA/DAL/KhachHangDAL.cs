@@ -11,12 +11,11 @@ namespace CNPM_SPA.DAL
 {
     public class KhachHangDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         // LOAD ALL (dùng VIEW VIP luôn)
         public DataTable Load()
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM vw_KhachHang_VIP", conn);
                 DataTable dt = new DataTable();
@@ -26,7 +25,7 @@ namespace CNPM_SPA.DAL
         }
         public DataTable LoadVIP()
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlDataAdapter da = new SqlDataAdapter("sp_DanhSachVIP", conn);
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -38,7 +37,7 @@ namespace CNPM_SPA.DAL
         }
         public DataTable LoadThuong()
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlDataAdapter da = new SqlDataAdapter("sp_DanhSachThuong", conn);
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -51,7 +50,7 @@ namespace CNPM_SPA.DAL
         // THÊM
         public void Them(KhachHangDTO kh)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_ThemKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -68,7 +67,7 @@ namespace CNPM_SPA.DAL
         // SỬA
         public void Sua(KhachHangDTO kh)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_SuaKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -86,7 +85,7 @@ namespace CNPM_SPA.DAL
         // XOÁ
         public void Xoa(int ma)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_XoaKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -101,7 +100,7 @@ namespace CNPM_SPA.DAL
         // TÌM KIẾM
         public DataTable TimKiem(string tuKhoa)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_TimKiemKhachHang", conn);
                 cmd.CommandType = CommandType.StoredProcedure;

@@ -98,6 +98,7 @@
     <Compile Include="BLL\ThongKeBLL.cs" />
     <Compile Include="DAL\BaoCaoDAL.cs" />
     <Compile Include="DAL\DatLichDAL.cs" />
+    <Compile Include="DAL\DBconnect.cs" />
     <Compile Include="DAL\GiaoDichDAL.cs" />
     <Compile Include="DAL\HoaDonDAL.cs" />
     <Compile Include="DAL\KhachHangDAL.cs" />

@@ -7,7 +7,6 @@ C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.csproj.Generat
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.exe
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.pdb
-C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.exe.config
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.frDangNhap.resources
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.LichLamViec.resources
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.frManagerNhanVien.resources
@@ -49,3 +48,4 @@ C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.csproj.Up2Date
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.GUI.frHoaDon.resources
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.GUI.frPhieuNhap.resources
 C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.GUI.ThemKhachVaLich.resources
+C:\Users\DELL\Downloads\CNPM\CNPM_SPA\CNPM_SPA\obj\Debug\CNPM_SPA.exe.config

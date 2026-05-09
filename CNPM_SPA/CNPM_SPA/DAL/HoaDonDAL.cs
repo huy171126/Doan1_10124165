@@ -6,12 +6,11 @@ namespace CNPM_SPA.DAL
 {
     public class HoaDonDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         // Thêm hóa đơn
         public int InsertHoaDon(int maKH, int maNV, DateTime ngay)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = @"
                     INSERT INTO HoaDon(MaKhachHang, MaNhanVien, NgayLap, TongTien)
@@ -35,7 +34,7 @@ namespace CNPM_SPA.DAL
         // Thêm chi tiết hóa đơn
         public void InsertChiTiet(int maHD, int maSP, int soLuong)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_ThemChiTietHoaDon", conn);
 
@@ -54,7 +53,7 @@ namespace CNPM_SPA.DAL
         // Tính tổng tiền
         public decimal GetTongTien(int maHD)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = @"
                     SELECT ISNULL(SUM(SoLuong * Gia),0)
@@ -77,7 +76,7 @@ namespace CNPM_SPA.DAL
         // Update tổng tiền
         public void UpdateTongTien(int maHD, decimal tongTien)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = @"
                     UPDATE HoaDon
@@ -101,7 +100,7 @@ namespace CNPM_SPA.DAL
         {
             decimal giam = 0;
 
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_LayPhanTramGiam", conn);
 
@@ -124,7 +123,7 @@ namespace CNPM_SPA.DAL
         }
         public decimal LayGiaSanPham(int maSP)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = "SELECT GiaBan FROM SanPham WHERE MaSanPham = @sp";
 

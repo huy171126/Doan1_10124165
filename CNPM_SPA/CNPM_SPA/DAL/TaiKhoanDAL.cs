@@ -11,11 +11,10 @@ namespace CNPM_SPA.DAL
 {
     public class TaiKhoanDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         public string DangNhap(TaiKhoanDTO tk)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand("sp_DangNhap", conn);
                 cmd.CommandType = CommandType.StoredProcedure;

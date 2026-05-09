@@ -11,12 +11,11 @@ namespace CNPM_SPA.DAL
 {
     public class NhanVienDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         // LOAD ALL
         public DataTable Load()
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM NhanVien", conn);
                 DataTable dt = new DataTable();
@@ -28,7 +27,7 @@ namespace CNPM_SPA.DAL
         // THÊM
         public void Them(NhanVienDTO nv)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand(
                     "INSERT INTO NhanVien VALUES (@Ten,@SDT,@CV,@Luong)", conn);
@@ -46,7 +45,7 @@ namespace CNPM_SPA.DAL
         // XOÁ
         public void Xoa(int ma)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand(
                     "DELETE FROM NhanVien WHERE MaNhanVien=@ma", conn);
@@ -61,7 +60,7 @@ namespace CNPM_SPA.DAL
         // SỬA
         public void Sua(NhanVienDTO nv)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlCommand cmd = new SqlCommand(@"
                     UPDATE NhanVien
@@ -85,7 +84,7 @@ namespace CNPM_SPA.DAL
         // TÌM KIẾM
         public DataTable TimKiem(string key)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 SqlDataAdapter da = new SqlDataAdapter(@"
                     SELECT * FROM NhanVien

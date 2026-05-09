@@ -10,13 +10,12 @@ namespace CNPM_SPA.DAL
 {
     public class ThongKeDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         public ThongKeDTO LayThongKe()
         {
             ThongKeDTO tk = new ThongKeDTO();
 
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 conn.Open();
 

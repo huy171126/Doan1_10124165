@@ -194,10 +194,11 @@ CREATE TABLE UuDaiKhachHang (
 
 INSERT INTO UuDaiKhachHang
 VALUES
-(100, N'Bạc', 5),
-(300, N'Vàng', 10),
-(500, N'Kim Cương', 15);
+(500, N'VIP', 15);
 
+delete from UuDaiKhachHang
+SELECT * FROM UuDaiKhachHang
+select * from SanPhamUuDai
 CREATE TABLE SanPhamUuDai (
     MaSanPham INT,
     MaUuDai INT,
@@ -207,15 +208,36 @@ CREATE TABLE SanPhamUuDai (
     FOREIGN KEY (MaSanPham) REFERENCES SanPham(MaSanPham),
     FOREIGN KEY (MaUuDai) REFERENCES UuDaiKhachHang(MaUuDai)
 );
+
 INSERT INTO SanPhamUuDai (MaSanPham, MaUuDai)
 VALUES
-(1,1),
-(1,2),
-(1,3),
-(2,1),
-(2,2),
-(3,1);
+(1, 1),
+(2, 1),
+(3, 1);
+DBCC CHECKIDENT ('UuDaiKhachHang', RESEED, 0)
 
+
+delete from SanPhamUuDai
+-----
+CREATE TRIGGER trg_KiemTraTonKho
+ON ChiTietHoaDon
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1
+        FROM inserted i
+        JOIN TonKho t ON i.MaSanPham = t.MaSanPham
+        WHERE i.SoLuong > t.SoLuong
+    )
+    BEGIN
+        RAISERROR (N'Không đủ tồn kho để bán!', 16, 1)
+        ROLLBACK TRANSACTION
+        RETURN
+    END
+END
+GO
+-----
 
 --thu tuc dang nhap
 CREATE PROCEDURE sp_DangNhap
@@ -686,6 +708,7 @@ BEGIN
     AND spud.MaSanPham = @MaSP
     ORDER BY ud.DiemToiThieu DESC
 END
+exec sp_LayPhanTramGiam 1,1
 --CÒN TỒN
 ALTER PROCEDURE sp_ConTonHang
 AS
@@ -879,6 +902,7 @@ BEGIN
     AND spud.MaSanPham = @MaSP
     ORDER BY ud.DiemToiThieu DESC
 END
+
 --lấy tất cả
 alter PROCEDURE sp_GiaoDich_GetAll
 AS
@@ -981,7 +1005,7 @@ BEGIN
 END
 
 
-CREATE VIEW vw_KhachHang_VIP
+alter VIEW vw_KhachHang_VIP
 AS
 SELECT 
     MaKhachHang,
@@ -989,7 +1013,7 @@ SELECT
     SoDienThoai,
     DiemTichLuy,
     CASE 
-        WHEN DiemTichLuy >= 100 THEN N'VIP'
+        WHEN DiemTichLuy >= 500 THEN N'VIP'
         ELSE N'Thường'
     END AS LoaiKhachHang
 FROM KhachHang

@@ -9,12 +9,11 @@ namespace CNPM_SPA.DAL
 {
     public class NhapHangDAL
     {
-        string connStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=Phan_Mem_Spa;Integrated Security=True";
 
         // THÊM PHIẾU NHẬP
         public int InsertNhapHang(int maNCC, DateTime ngay)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = @"INSERT INTO NhapHang(MaNCC, NgayNhap)
                                VALUES (@ncc, @ngay);
@@ -32,7 +31,7 @@ namespace CNPM_SPA.DAL
         // THÊM CHI TIẾT NHẬP
         public void InsertChiTietNhap(int maNhap, int maSP, int soLuong, decimal giaNhap)
         {
-            using (SqlConnection conn = new SqlConnection(connStr))
+            using (SqlConnection conn = new SqlConnection(DBConnect.connStr))
             {
                 string sql = @"INSERT INTO ChiTietNhap(MaNhap, MaSanPham, SoLuong, GiaNhap)
                                VALUES (@mn, @sp, @sl, @gia)";
