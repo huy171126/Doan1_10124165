@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\soquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\soquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\soquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\soquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\gui\\managerquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\managerquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\gui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\quanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\gui\\quanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\quanlygiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlygiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\gui\\quanlygiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\quanlygiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyPhong.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:48.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyPhong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyPhong.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyPhong.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:47.404Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoQuy.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\SoQuy.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\SoQuy.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\SoQuy.cs",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\SoQuy.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwNQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:40.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoQuy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\SoQuy.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\SoQuy.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\SoQuy.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\SoQuy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:38.568Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:35:53.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLyNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyNhanVien.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T00:45:46.79Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAkwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:29:44.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuanLyKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyKhachHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyKhachHang.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T00:45:35.914Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuanLyGiaoDich.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:14:39.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuanLyGiaoDich.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\QuanLyGiaoDich.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\QuanLyGiaoDich.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\QuanLyGiaoDich.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T00:45:11.792Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerQuanLy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\ManagerQuanLy.cs",
+              "RelativeDocumentMoniker": "CNPM_SPA\\GUI\\ManagerQuanLy.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\CNPM_SPA\\GUI\\ManagerQuanLy.cs [Design]",
+              "RelativeToolTip": "CNPM_SPA\\GUI\\ManagerQuanLy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T03:13:52.047Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
