@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\gui\\managerquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\gui\\managerquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\gui\\managerquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|c:\\users\\dell\\downloads\\cnpm\\cnpm_spa\\cnpm_spa\\dal\\hoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|C:\\Users\\DELL\\Downloads\\CNPM\\CNPM_SPA\\cnpm_spa\\dal\\hoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B53B78-BEC6-41F5-BDB8-EF2DB399EBD2}|CNPM_SPA\\CNPM_SPA.csproj|solutionrelative:cnpm_spa\\dal\\hoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +30,7 @@
               "RelativeToolTip": "CNPM_SPA\\DAL\\HoaDonDAL.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAkwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T12:36:53.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T12:36:53.057Z"
             },
             {
               "$type": "Document",
